@@ -1,0 +1,25 @@
+{
+  "name": "cookie",
+  "version": "0.0.1",
+  "description": "cookie for node.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nathanfaucett/cookie.git"
+  },
+  "main": "src/index.js",
+  "keywords": [
+    "cookie",
+    "cookie.js"
+  ],
+  "author": "Nathan Faucett",
+  "license": "BSD-2-Clause",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "grunt": "",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-jsbeautifier": ""
+  },
+  "dependencies": {
+    "is_object": "nathanfaucett/is_object"
+  }
+}
