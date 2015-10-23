@@ -1,4 +1,5 @@
-var isObject = require("is_object");
+var time = require("time"),
+    isObject = require("is_object");
 
 
 module.exports = Cookie;
@@ -26,7 +27,7 @@ Cookie.prototype.serialize = function() {
     var str = this.name + "=" + encodeURIComponent(this.value);
 
     if ((this.maxAge = +this.maxAge)) {
-        this.expires = new Date(Date.now() + this.maxAge);
+        this.expires = new Date(time.stamp() + this.maxAge);
     }
 
     if (this.path) {
