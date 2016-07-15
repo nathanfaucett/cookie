@@ -1,5 +1,5 @@
 {
-  "name": "cookie",
+  "name": "@nathanfaucett/cookie",
   "version": "0.0.1",
   "description": "cookie for node.js",
   "repository": {
@@ -15,12 +15,12 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-jshint": "^0.11.3",
-    "grunt-jsbeautifier": "^0.2.10"
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-jsbeautifier": "^0.2.13"
   },
   "dependencies": {
-    "time": "git://github.com/nathanfaucett/time.git",
-    "is_object": "git://github.com/nathanfaucett/is_object.git"
+    "@nathanfaucett/now": "^0.0.1",
+    "@nathanfaucett/is_object": "^0.0.1"
   }
 }
