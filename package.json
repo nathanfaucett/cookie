@@ -1,6 +1,6 @@
 {
   "name": "@nathanfaucett/cookie",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "cookie for node.js",
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
     "grunt-jsbeautifier": "^0.2.13"
   },
   "dependencies": {
-    "@nathanfaucett/now": "^0.0.1",
+    "@nathanfaucett/now": "^0.0.3",
     "@nathanfaucett/is_object": "^0.0.1"
   }
 }
